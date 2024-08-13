@@ -1,0 +1,68 @@
+/*Config global*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Signika Negative";
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(170,111,62);
+    background: radial-gradient(circle, #aa6f3efd 3%, #ffe4c4 42%, #e9e4ce 100%);
+}
+
+#container {
+    background-color: #ffe4c4;
+    opacity: 0.7;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 350px;
+}
+
+input{
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    display: space-around;
+    width: 220px
+}
+
+button {
+    font-size: 15px;
+    float: right;
+}
+
+.titulo{
+    margin-top: 15px;
+}
+
+.temp{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.Box-Menor{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.umidade{
+    margin-top: 15px;
+}
+
+.Texto-Previsao {
+    text-transform: capitalize;
+}
+
+.Vel-Vento{
+    margin-top: 15px
+}
